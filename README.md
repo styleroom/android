@@ -1,4 +1,4 @@
-android
+Приложения Android на Java
 =======
 
-Приложения Android  на Java
+примеры кода
