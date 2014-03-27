@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Телефонный справочник</string>
+    <string name="title_activity_page">Телефонный справочник</string>
+    <string name="action_settings">Настройки</string>
+    <string name="hello_world"></string>
+
+    <string-array name="web_pages">
+        <item>Управление</item>
+        <item>Бухгалтерия</item>
+        <item>Финансово-экономическая служба</item>
+        <item>Отдел труда и зарплаты</item>
+        <item>Служба информационных технологий</item>
+        <item>Служба управления персоналом</item>
+        <item>Юридический отдел</item>
+        <item>Отдел материально-технического снабжения</item>
+        <item>Отдел поставок мясосырья</item>
+        <item>Административный отдел</item>
+        <item>Отдел внутреннего контроля</item>
+        <item>О П В К</item>
+        <item>Коммерческая служба</item>
+        <item>Служба маркетинга</item>
+        <item>Цех готовой продукции</item>
+        <item>Участок мойки тары</item>
+        <item>Служба главного инженера</item>
+        <item>Основное производство</item>
+        <item>Общезаводские службы</item>
+    </string-array>    
+
+</resources>
