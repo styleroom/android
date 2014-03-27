@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal">#333333</color>
+    <color name="pressed">#666666</color>
+    <color name="yellow">#FFF600</color>
+    <color name="red">#FF0000</color>
+    <color name="sangina">#A70000</color>
+    <color name="orange">#FFA800</color>
+    <color name="yellogreen">#CCFF00</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    
+</resources>
