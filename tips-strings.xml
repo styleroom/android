@@ -19,7 +19,6 @@
     <string name="text_section5">Управление проектами</string>
     <string name="text_section6">Верстка страниц</string>
     
-    <string name="title_activity_zapas">ZapasActivity</string>
     <string name="hello_world">Hello world!</string>
 
 </resources>
