@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/start_vertical_margin"
+    android:paddingLeft="@dimen/start_horizontal_margin"
+    android:paddingRight="@dimen/start_horizontal_margin"
+    android:paddingTop="@dimen/start_vertical_margin"
+    android:weightSum="1"
+    android:background="@color/white"
+    tools:context=".MainActivity" 
+    >
+
+   <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:weightSum="1"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.333" 
+            android:weightSum="1"
+            >
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@drawable/bckg"
+                android:onClick="onClick"
+                android:text="Бисмарк"
+                android:textColor="@color/white" />
+
+            <Button
+                 android:id="@+id/butt2"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.5"
+                 android:background="@drawable/bckg"
+                 android:textColor="@color/white"                 
+                 android:text="Черчилль" 
+                 android:onClick="onClick"                
+                />            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.333"
+            android:weightSum="1"
+            >
+            <Button
+                 android:id="@+id/butt3"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.5"
+                 android:background="@drawable/bckg"
+                 android:textColor="@color/white"
+                 android:text="Конфуций" 
+                 android:onClick="onClick"                
+                />
+            <Button
+                 android:id="@+id/butt4"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.5"
+                 android:background="@drawable/bckg"
+                 android:textColor="@color/white"                 
+                 android:text="Суворов"  
+                 android:onClick="onClick"               
+                />            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.334"
+            android:weightSum="1"
+            >
+            <Button
+                 android:id="@+id/butt5"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.5"
+                 android:background="@drawable/bckg"
+                 android:textColor="@color/white"
+                 android:text="Греки" 
+                 android:onClick="onClick"                
+                />
+            <Button
+                 android:id="@+id/butt6"
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="0.5"
+                 android:background="@drawable/bckg"
+                 android:textColor="@color/white"                 
+                 android:text="Разное" 
+                 android:onClick="onClick"                
+                />            
+        </TableRow>        
+
+    </TableLayout>
+
+</LinearLayout>
